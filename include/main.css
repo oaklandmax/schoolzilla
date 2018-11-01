@@ -1,0 +1,121 @@
+
+body {
+    /*background-color: #88bbbb; */
+    background-color: #7799bb;
+    background-color: #F5F6E8;
+}
+body, button, input, select, textarea {
+    color: #333333;
+    font: 14px/1.65 Helvetica,Arial,sans-serif;
+}
+
+#header {
+    text-align: center;
+    alignment-adjust: central;
+    width:100%;
+    background-color:#888;
+    padding: 1em 0 1em 0;
+    margin-bottom: 1em;
+}
+#header h2 { 
+    color: #F5F6E8;
+    text-align: center;
+}
+#header_links {
+    margin-left: auto;
+    margin-right: auto;
+    clear:both;
+    width:960px;
+    padding-right: 4em;
+    text-align: right;
+}
+#footer {
+    text-align: center;
+    width:100%;
+    background-color:#888;
+    padding: 1em 0 .6em 0;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    min-height: 2em;
+    color: #F5F6E8;
+}
+
+#footer a:link, #header a:link {
+    color: #F5F6E8;
+    text-decoration: none;
+    font-weight: bold;
+}
+#footer a:visited, #header a:visited {
+    color: #F5F6E8;
+    text-decoration: none;
+    font-weight: bold;
+}
+#footer a:hover, #header a:hover {
+    color: #F5F6E8;
+    text-decoration: underline;
+    font-weight: bold;
+}
+#footer a:active, #header a:active {
+    color: #F5F6E8;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+#content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    min-height: 50em;
+    //background-color: #bbbbaa;
+    //background-color:#F5F6E8;
+    background-color:#FFF;
+    padding:1em;
+    border:1px dotted #888;
+}
+
+div.id_listing {
+    padding:1em;
+    padding-top: 0;
+    border: 1px solid #333;
+    margin-bottom: .5em;
+    background-color: #F5F6E8;
+
+}
+.field_name {
+    font-weight: bolder;
+}
+.field_data {
+}
+#search_form {
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    background-color: #F5F6E8;
+    width:inherit;
+    border: 1px solid #333;
+}
+#id_search {
+    text-align: left;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:1em;
+    padding: 22.5em 0 23em 0em;
+    background-color: #F5F6E8;
+    //min-height:inherit;
+}
+#id_search form {
+    text-align: left;
+}
+#table_out {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+#table_out td {
+    border: 1px solid #333;
+    border-collapse: collapse;
+    padding:1em;
+}
+

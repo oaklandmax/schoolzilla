@@ -1,0 +1,39 @@
+Hi Schoolzilla People!
+
+This has been a fun project. I hope I have demonstrated the skills and perspective needed to be considered for this job. 
+
+Generally I would go with a basic CRUD database model, and have a fully relational dataset for the student ID, the class scores, and the class info, so that any table could be easily created with either all the classes a student took, or all the scores that students generated for a class, or like this test, a many to many list of student id and class scores.
+
+Part of this assignment depended on the use of the word "spreadsheet", which I took literally, and created a CSV file to read the example data from, and after manipulating it via arrays, wrote to a new CSV file for use elsewhere.
+
+If by "spreadsheet" the assignment really just meant "table", then some of this example work is a little irrelevant, but still pretty fun to to read, if a little less pretty than a nicely presented table of data. I included a printout of the cvs data files before and after, so it would be pretty easy to see what a table made from the data would look like.
+
+So, on to the questions:
+
+1)
+
+The solution presented here retrieves the data and resorts it according to the request, so that is actually done. The process that I went through to coem to my solution was to pseudo-code the tasks as follows and then just see where the problem leads me.
+- Load the data 
+- put data into array
+- clean data
+- map data to new columns and associations after validating
+- write data
+
+The mapping of the data is really the main task, as one assumes that the names of the classes could change or expand. Everything was done dynamically except the changing the header titles, as those were just dictated by the task and not the data. This remapping of the data is where one would have to make sure that the data was being transformed to meet everyones needs so like this test, some whiteboarding, clear communication with the involved parties, and a sample program like this one I am now presenting would step toward the solution.
+
+I took care to name my datasets class and its variables to imply that there could be additional data arrangements that would need to be remapped with additional functions as needed
+
+Tools were vi, and netbeans. I like to write in vi, but the formatting in netbeans IDE is hard not to appreciate. No libraries used in this task, but if we were accessing a database there could be a need for some greater structure and assets. I tried to vaguely imply an MVC pattern with the include directories and classes separated from the main index file.
+
+To allow users to update the data, I would load the data into a database if it wasnt already in one, and access it by displaying the data in a table and adding a link either the "student_id" or if needed we could generate a "class_score_id" to keep track of individual scores in the reformatted columns to alow us to load the data into a form for updating and submission.
+
+2)
+
+Unit tests for the class functions would be implemented to confirm that they are working as development continues. phpunit is a good one, but thats a question of your infrastructure and company preferences.
+
+To insure performance as the data grows, there are lots of things to consider: databases, data servers, data types and how they are stored (BLObs, etc), networking, web servers, memory cache, storage arrays. Any of these could be an issue.
+
+I look forward to discussing this test and finding out more about what the ideal solution looks like.
+
+-Max Perez
+
