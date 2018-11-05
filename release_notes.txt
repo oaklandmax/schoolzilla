@@ -1,7 +1,5 @@
 Hi Schoolzilla People!
 
-This has been a fun project. I hope I have demonstrated the skills and perspective needed to be considered for this job. 
-
 Generally I would go with a basic CRUD database model, and have a fully relational dataset for the student ID, the class scores, and the class info, so that any table could be easily created with either all the classes a student took, or all the scores that students generated for a class, or like this test, a many to many list of student id and class scores.
 
 Part of this assignment depended on the use of the word "spreadsheet", which I took literally, and created a CSV file to read the example data from, and after manipulating it via arrays, wrote to a new CSV file for use elsewhere.
@@ -33,7 +31,4 @@ Unit tests for the class functions would be implemented to confirm that they are
 
 To insure performance as the data grows, there are lots of things to consider: databases, data servers, data types and how they are stored (BLObs, etc), networking, web servers, memory cache, storage arrays. Any of these could be an issue.
 
-I look forward to discussing this test and finding out more about what the ideal solution looks like.
-
--Max Perez
 
